@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+# strict minfree handler
+echo 1536,2048,4096,15360,17920,20480 >/sys/module/lowmemorykiller/parameters/minfree
